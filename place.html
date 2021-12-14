@@ -9,7 +9,7 @@
 </head>
 <body class="page">
 <header class="header">
-    <img class="logo header__logo" src="./images/header/Logo.svg" alt="Логотип">
+    <a href="./index.html" class="link header__link"><img class="logo header__logo" src="./images/header/Logo.svg" alt="Логотип"></a>
     <nav class="navigation header__navigation">
         <ul class="list header__list">
             <li class="header__list-element">
@@ -35,7 +35,7 @@
     </section>
 
     <section class="place">
-        <form class="place__form">
+        <form class="place__form" id="place-form">
             <fieldset class="fieldset place__fieldset" name="carriage">
                 <h2 class="fieldset__title">Оберіть вагон:</h2>
                 <p class="fieldset__subtitle">плацкарт</p>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </fieldset>
-            <button class="button place__button">Далі</button>
+            <button class="button place__button" form="place-form" type="submit">Далі</button>
         </form>
     </section>
 </main>
