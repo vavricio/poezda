@@ -1,0 +1,25 @@
+.input {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #DDE3EB;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 30px;
+    height: 25px;
+    background: url("../../images/search/date.svg") center no-repeat;
+    margin-right: 24px;
+}
+
+.input::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737B98
+}
+
+.input:focus {
+    outline-color: #297FFF;
+}

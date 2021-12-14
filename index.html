@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="uk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Poezda</title>
+</head>
+<body class="page">
+<header class="header">
+    <img class="logo header__logo" src="./images/header/Logo.svg" alt="Логотип">
+    <nav class="navigation header__navigation">
+        <ul class="list header__list">
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/coin.svg" alt="Монета">
+                <a class="link header__link" href="#">Придбати квитки</a>
+            </li>
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/favorite.svg" alt="Зірка">
+                <a class="header__link" href="#">Мої поїздки</a>
+            </li>
+        </ul>
+        <button class="button header__button" type="button">Увійти</button>
+    </nav>
+</header>
+<main class="main">
+    <section class="search">
+        <h1 class="search__title">— Шукай квитки на потяг.</h1>
+        <div class="search__container">
+            <form class="form search__form" id="search" action="./search.html">
+                <div class="form__wrapper">
+                    <div class="search__wrapper">
+                        <p class="search__text">Звідки?</p>
+                        <label class="search__label">
+                            <input class="input search__input" type="text" name="dispatch"
+                                   placeholder="Станція відправки">
+                            <img class="search__image" src="./images/search/point.svg" alt="">
+                        </label>
+                    </div>
+                    <img class="arrow search__arrow" src="./images/search/arrowRight.svg" alt="Стрілка право">
+                    <div class="search__wrapper">
+                        <p class="search__text">Куди?</p>
+                        <label class="search__label">
+                            <input class="input search__input" type="text" name="arrival"
+                                   placeholder="Станція прибуття">
+                            <img class="search__image" src="./images/search/point.svg" alt="">
+                        </label>
+                    </div>
+                    <img class="arrow search__arrow" src="./images/search/arrowRight.svg" alt="Стрілка право">
+                    <div class="search__wrapper">
+                        <p class="search__text">Коли?</p>
+                        <label class="search__label">
+                            <input class="input search__input" type="date" name="date" value="2021-01-01">
+                        </label>
+                    </div>
+                </div>
+                <button class="button search__button" form="search" type="submit">Пошук</button>
+            </form>
+        </div>
+    </section>
+</main>
+</body>
+</html>

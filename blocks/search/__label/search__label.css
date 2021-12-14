@@ -1,0 +1,6 @@
+.search__label {
+    position: relative;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,7 @@
+.route__info {
+    margin-bottom: 40px;
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,6 @@
+.header__list {
+    display: flex;
+    min-width: 333px;
+    max-width: 333px;
+    justify-content: space-between;
+}

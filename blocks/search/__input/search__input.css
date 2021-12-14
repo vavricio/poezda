@@ -1,0 +1,16 @@
+.search__input {
+    min-width: 266px;
+    min-height: 68px;
+    background: none;
+    padding-left: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #14233D;
+}
+
+.search__input::placeholder {
+    color: #14233D;
+    opacity: 1;
+}
+

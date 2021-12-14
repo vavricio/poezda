@@ -1,0 +1,11 @@
+.place__passenger-num {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #14233D;
+}
+
+.place__passenger-num::before {
+    content: "Пасажир \0020";
+}

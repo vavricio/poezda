@@ -1,0 +1,11 @@
+.carriage__class {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #14233D;
+}
+
+.carriage__class::after {
+    content: ":";
+}

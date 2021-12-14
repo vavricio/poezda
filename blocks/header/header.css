@@ -1,0 +1,9 @@
+.header {
+    margin: 8px auto 50px;
+    max-width: 1180px;
+    height: 82px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DDE3EB;
+    display: flex;
+    justify-content: space-between;
+}

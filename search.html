@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="uk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./pages/search.css">
+    <title>Poezda</title>
+</head>
+<body class="page">
+<header class="header">
+    <img class="logo header__logo" src="./images/header/Logo.svg" alt="Логотип">
+    <nav class="navigation header__navigation">
+        <ul class="list header__list">
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/coin.svg" alt="Монета">
+                <a class="link header__link" href="#">Придбати квитки</a>
+            </li>
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/favorite.svg" alt="Зірка">
+                <a class="header__link" href="#">Мої поїздки</a>
+            </li>
+        </ul>
+        <button class="button header__button" type="button">Увійти</button>
+    </nav>
+</header>
+<main class="main">
+    <section class="info">
+        <div class="info__wrapper">
+            <h2 class="info__title info__dispatch">Станція відправки</h2>
+            <img class="arrow info__arrow" src="./images/search/arrowRight.svg" alt="Стрілка право">
+            <h2 class="info__title info__arrival">Станція прибуття</h2>
+        </div>
+        <h2 class="info__title info__date">17.12.2021</h2>
+    </section>
+
+    <section class="route">
+        <div class="route__element">
+            <div class="route__info">
+                <div class="train route__train">
+                    <h2 class="train__number">000A</h2>
+                    <p class="train__path">Киев-Пассажирский — Пшемысль</p>
+                </div>
+                <div class="time route__time-info">
+                    <div class="time__wrapper time__dispatch">
+                        <h2 class="time__hours">05:38</h2>
+                        <p class="time__date">17 декабря, Пт</p>
+                    </div>
+                    <div class="route__line"></div>
+                    <div class="time__wrapper time__arrive">
+                        <h2 class="time__hours">11:21</h2>
+                        <p class="time__date">17 декабря, Пт</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carriage route__carriage">
+                <div class="carriage__wrapper">
+                    <h2 class="carriage__class">Люкс</h2>
+                    <p class="carriage__type">Стандартний</p>
+                    <p class="carriage__places-count">14</p>
+                </div>
+                <div class="carriage__price">
+                    <h2 class="carriage__price_type_number">660</h2>
+                    <p class="carriage__price_type_currency">грн</p>
+                </div>
+                <a class="button carriage__link-button" href="#">Обрати</a>
+            </div>
+
+            <div class="carriage route__carriage">
+                <div class="carriage__wrapper">
+                    <h2 class="carriage__class">Купе:</h2>
+                    <p class="carriage__type">Стандартний</p>
+                    <p class="carriage__places-count">21</p>
+                </div>
+                <div class="carriage__price">
+                    <h2 class="carriage__price_type_number">450</h2>
+                    <p class="carriage__price_type_currency">грн</p>
+                </div>
+                <a class="button carriage__link-button" href="#">Обрати</a>
+            </div>
+            <div class="carriage route__carriage">
+                <div class="carriage__wrapper">
+                    <h2 class="carriage__class">Плацкарт</h2>
+                    <p class="carriage__type">Економ</p>
+                    <p class="carriage__places-count">45</p>
+                </div>
+                <div class="carriage__price">
+                    <h2 class="carriage__price_type_number">280</h2>
+                    <p class="carriage__price_type_currency">грн</p>
+                </div>
+                <a class="button carriage__link-button" href="#">Обрати</a>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

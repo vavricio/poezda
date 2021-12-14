@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="uk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./pages/place.css">
+    <title>Poezda</title>
+</head>
+<body class="page">
+<header class="header">
+    <img class="logo header__logo" src="./images/header/Logo.svg" alt="Логотип">
+    <nav class="navigation header__navigation">
+        <ul class="list header__list">
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/coin.svg" alt="Монета">
+                <a class="link header__link" href="#">Придбати квитки</a>
+            </li>
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/favorite.svg" alt="Зірка">
+                <a class="header__link" href="#">Мої поїздки</a>
+            </li>
+        </ul>
+        <button class="button header__button" type="button">Увійти</button>
+    </nav>
+</header>
+<main class="main">
+    <section class="info">
+        <div class="info__wrapper">
+            <h2 class="info__title info__dispatch">Станція відправки</h2>
+            <img class="arrow info__arrow" src="./images/search/arrowRight.svg" alt="Стрілка право">
+            <h2 class="info__title info__arrival">Станція прибуття</h2>
+        </div>
+        <h2 class="info__title info__date">17.12.2021</h2>
+    </section>
+
+    <section class="place">
+        <form class="place__form">
+            <fieldset class="fieldset place__fieldset" name="carriage">
+                <h2 class="fieldset__title">Оберіть вагон:</h2>
+                <p class="fieldset__subtitle">плацкарт</p>
+                <div class="fieldset__wrapper">
+                    <input class="place__input place__input_type_radio" type="radio" id="carriage-1" name="carriage"
+                           value="1" checked>
+                    <label class="place__label" for="carriage-1">Вагон №1</label>
+
+                    <input class="place__input place__input_type_radio" type="radio" id="carriage-2" name="carriage"
+                           value="2">
+                    <label class="place__label" for="carriage-2">Вагон №2</label>
+
+                    <input class="place__input place__input_type_radio" type="radio" id="carriage-3" name="carriage"
+                           value="3">
+                    <label class="place__label" for="carriage-3">Вагон №3</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="fieldset place__fieldset" name="number">
+                <h2 class="fieldset__title">Оберіть кількість місць:</h2>
+                <label class="place__label">
+                    <input class="input place__input place__input_type_number" type="number" id="number-input" value="0">
+                </label>
+            </fieldset>
+
+            <fieldset class="fieldset place__fieldset" name="personal-info">
+                <h2 class="fieldset__title">Дані про пасажира:</h2>
+                <div class="place__passenger-data">
+                    <h2 class="place__passenger-num">1</h2>
+                    <div class="fieldset__wrapper">
+                        <input class="input place__input place__input_type_text" type="text" name="name" id="name-1" placeholder="Ім'я">
+                        <label for="name-1" class="place__label"></label>
+
+                        <input class="input place__input place__input_type_text" type="text" name="surname" id="surname-1" placeholder="Прізвище">
+                        <label for="surname-1" class="place__label"></label>
+
+                        <input class="input place__input place__input_type_number" type="number" name="place" id="place-1" placeholder="Номер місця">
+                        <label for="place-1" class="place__label"></label>
+                    </div>
+                </div>
+            </fieldset>
+            <button class="button place__button">Далі</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

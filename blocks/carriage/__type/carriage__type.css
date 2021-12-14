@@ -1,0 +1,11 @@
+.carriage__type {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737B98;
+}
+
+.carriage__type::after {
+    content: ",";
+}

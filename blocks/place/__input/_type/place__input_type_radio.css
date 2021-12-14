@@ -1,0 +1,11 @@
+.place__input_type_radio {
+    margin: 0 6px 0 20px;
+    padding: 0;
+    height: unset;
+    width: unset;
+    max-width: unset;
+}
+
+.place__input_type_radio:first-of-type {
+    margin-left: 0;
+}

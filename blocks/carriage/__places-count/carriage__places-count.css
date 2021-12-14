@@ -1,0 +1,11 @@
+.carriage__places-count {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737B98;
+}
+
+.carriage__places-count::after {
+    content: "\0020 місць";
+}

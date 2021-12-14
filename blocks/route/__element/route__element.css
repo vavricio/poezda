@@ -1,0 +1,13 @@
+.route__element {
+    margin-bottom: 40px;
+    padding: 40px 50px;
+    max-width: 1080px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 10px 50px rgba(20, 35, 61, 0.1);
+    border-radius: 20px;
+}
+
+.route__element:last-child {
+    margin-bottom: 0;
+}

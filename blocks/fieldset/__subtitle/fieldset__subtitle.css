@@ -1,0 +1,11 @@
+.fieldset__subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #737B98;
+}
+
+.fieldset__subtitle::before {
+    content: "Тип вагону: \0020";
+}
