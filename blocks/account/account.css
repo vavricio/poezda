@@ -1,0 +1,11 @@
+.account {
+    margin: 0 auto 50px;
+    padding: 100px 135px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 50px rgba(20, 35, 61, 0.1);
+    border-radius: 20px;
+    display: flex;
+    max-width: 910px;
+    width: 100%;
+    justify-content: space-between;
+}

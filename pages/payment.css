@@ -1,0 +1,27 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+@import "../blocks/page/page.css";
+@import "../blocks/header/header.css";
+@import "../blocks/logo/logo.css";
+@import "../blocks/button/button.css";
+@import "../blocks/link/link.css";
+@import "../blocks/list/list.css";
+@import "../blocks/form/form.css";
+@import "../blocks/navigation/navigation.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__button/header__button.css";
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__navigation/header__navigation.css";
+@import "../blocks/header/__list/header__list.css";
+@import "../blocks/header/__list-element/header__list-element.css";
+@import "../blocks/header/__list-image/header__list-image.css";
+@import "../blocks/main/main.css";
+@import "../blocks/input/input.css";
+
+@import "../blocks/payment/payment.css";
+@import "../blocks/payment/__image/payment__image.css";
+@import "../blocks/interaction/__title/interaction__title.css";
+@import "../blocks/interaction/__link/interaction__link.css";
+@import "../blocks/interaction/__input/interaction__input.css";
+@import "../blocks/payment/__form/payment__form.css";
+@import "../blocks/interaction/__button/interaction__button.css";

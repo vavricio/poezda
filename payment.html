@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="uk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./pages/payment.css">
+    <title>Poezda</title>
+</head>
+<body class="page">
+<header class="header">
+    <a href="./index.html" class="link header__link"><img class="logo header__logo" src="./images/header/Logo.svg"
+                                                          alt="Логотип"></a>
+    <nav class="navigation header__navigation">
+        <ul class="list header__list">
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/coin.svg" alt="Монета">
+                <a class="link header__link" href="#">Придбати квитки</a>
+            </li>
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/favorite.svg" alt="Зірка">
+                <a class="header__link" href="#">Мої поїздки</a>
+            </li>
+        </ul>
+        <a class="button link header__button" href="./login.html">Увійти</a>
+    </nav>
+</header>
+<main class="main">
+    <section class="payment interaction">
+        <img class="payment__image" src="./images/interaction/pay-image.svg" alt="Логін">
+        <form class="form payment__form" name="registration" action="index.html">
+            <h1 class="interaction__title">Введіть дані для оплати</h1>
+            <label class="interaction__label">
+                <input class="input interaction__input" type="text" name="card-number" placeholder="Номер карти" minlength="2" maxlength="30">
+            </label>
+            <label class="interaction__label">
+                <input class="input interaction__input" type="text" name="exp-date" placeholder="Термін дії картки">
+            </label>
+            <label class="interaction__label">
+                <input class="input interaction__input" type="text" name="cvv" placeholder="CVV" minlength="3">
+            </label>
+            <button class="button interaction__button" type="submit">Оплатити</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

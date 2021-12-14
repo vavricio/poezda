@@ -1,0 +1,7 @@
+.payment__form {
+    margin: 0 0 0 118px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

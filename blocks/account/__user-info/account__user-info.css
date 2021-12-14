@@ -1,0 +1,5 @@
+.account__user-info {
+    display: flex;
+    max-width: 640px;
+    flex-wrap: wrap;
+}

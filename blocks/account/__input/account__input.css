@@ -1,0 +1,14 @@
+.account__input {
+    padding: 0 20px;
+    max-width: 300px;
+    min-width: 300px;
+    height: 68px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #14233D;
+}
+
+.account__input::placeholder {
+    color: #14233D;
+}

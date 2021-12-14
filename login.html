@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="uk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./pages/login.css">
+    <title>Poezda</title>
+</head>
+<body class="page">
+<header class="header">
+    <a href="./index.html" class="link header__link"><img class="logo header__logo" src="./images/header/Logo.svg"
+                                                          alt="Логотип"></a>
+    <nav class="navigation header__navigation">
+        <ul class="list header__list">
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/coin.svg" alt="Монета">
+                <a class="link header__link" href="#">Придбати квитки</a>
+            </li>
+            <li class="header__list-element">
+                <img class="header__list-image" src="./images/header/favorite.svg" alt="Зірка">
+                <a class="header__link" href="#">Мої поїздки</a>
+            </li>
+        </ul>
+        <a class="button link header__button" href="./login.html">Увійти</a>
+    </nav>
+</header>
+<main class="main">
+    <section class="login interaction">
+        <img class="login__image" src="./images/interaction/login.svg" alt="Логін">
+        <form class="form login__form" name="login" action="index.html">
+            <h1 class="interaction__title">Вхід до облікового запису</h1>
+            <label class="interaction__label">
+                <input class="input interaction__input" type="email" name="email" placeholder="Електронна адреса">
+            </label>
+            <label class="interaction__label">
+                <input class="input interaction__input" type="password" name="password" placeholder="Пароль">
+            </label>
+
+            <button class="button interaction__button" type="submit">Вхід</button>
+            <a class="link interaction__link" href="registration.html">Створити акаунт</a>
+        </form>
+    </section>
+</main>
+</body>
+</html>
